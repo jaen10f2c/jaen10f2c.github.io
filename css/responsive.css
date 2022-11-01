@@ -4,160 +4,225 @@
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media (min-width: 1200px) and (max-width: 1342px) {
-    .about_img {
-        margin-right: 0;
+    #myCarousel .carousel-control-prev {
+        right: 15.5%;
+    }
+    #proj .carousel-control-prev {
+        left: 45.6%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .build_box h1 {
-        font-size: 72px;
+        font-size: 87px;
     }
-    .titlepage h2 {
-        font-size: 36px;
+    #myCarousel .carousel-control-prev {
+        right: 16.5%;
     }
-    .plan_text h3 {
-        font-size: 19px;
+    #proj .carousel-control-prev {
+        left: 43.6%;
     }
-    .marriage_text h3 {
-        font-size: 23px;
-        padding-bottom: 12px;
+    .award_icon strong {
+        font-size: 14px;
     }
-    ul.lacation li {
-        padding-right: 7px;
+    ul.social_icon_staff li a {
+        width: 36px;
+        height: 36px;
     }
-    .about_img {
-        margin-right: 0;
+    .footer h3 {
+        font-size: 14px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        height: 154px;
+    }
     ul.contat_infoma li {
         font-size: 12px;
     }
     .logo {
         padding-top: 4px;
     }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 9px 19px;
-    }
-    .banner_main {
-        padding-bottom: 115px;
-    }
     .build_box h1 {
-        font-size: 63px;
+        font-size: 67px;
     }
-    .build_box {
-        padding-top: 12%;
+    #proj .carousel-control-next {
+        right: 41%;
     }
-    .plan_text {
-        padding: 49px 8px;
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 9px 11px;
     }
-    .plan_text h3 {
-        font-size: 17px;
+    #myCarousel .carousel-control-next {
+        right: 8%;
     }
-    .marriage_text {
-        padding: 10px 12px 9px 0px;
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
     }
-    .marriage_text h3 {
-        font-size: 17px;
-        padding-bottom: 6px;
+    .const span {
+        font-size: 11px;
     }
-    .marriage_text span {
-        font-size: 16px;
-        line-height: 15px;
-        padding-bottom: 7px;
+    .titlepage h2 {
+        font-size: 40px;
+        line-height: 30px;
     }
-    .marriage_text p {
-        font-size: 15px;
-        line-height: 24px;
-        padding-bottom: 14px;
+    .projects_ban {
+        padding: 0 0px;
     }
-    ul.lacation li {
-        padding-right: 8px;
-        font-size: 13px;
+    .project_text h3 {
+        font-size: 22px;
     }
-    ul.lacation li i {
-        margin-right: 6px;
-        width: 32px;
+    .award_icon i {
+        width: 124px;
+        height: 124px;
+    }
+    .award_icon strong {
+        font-size: 12px;
+    }
+    ul.social_icon_staff li a {
         font-size: 18px;
-        height: 30px;
+        width: 31px;
+        height: 31px;
     }
-    ul.social_icon li {
-        margin-left: 13px;
+    .social_icon_main {
+        padding: 20px 9px;
     }
-    .about_img {
-        margin-right: 0;
+    #testimo .carousel-control-next {
+        left: 11%;
+    }
+    .main_form {
+        padding: 40px 30px;
+    }
+    .sub_btn {
+        max-width: 203px;
+    }
+    .link_menu {
+        margin-bottom: 30px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        height: 155px;
+    }
     ul.search {
         display: none;
     }
-    .banner_main {
-        padding-bottom: 115px;
-    }
     .build_box h1 {
-        font-size: 63px;
+        font-size: 67px;
     }
-    .build_box {
-        padding-top: 12%;
+    ul.contat_infoma {
+        display: none;
     }
-    .margin_top70 {
-        margin-top: 0px;
+    .award_icon strong {
+        font-size: 16px;
+    }
+    .logo a img {
+        position: relative;
+        z-index: 9999;
     }
     .about_img {
         margin-top: 30px;
-        margin-right: 0;
     }
-    .titlepage h2 {
-        font-size: 32px;
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+        top: 100%;
     }
-    .marriage_text {
-        padding: 20px 25px 20px 25px;
+    #myCarousel .carousel-control-prev {
+        right: 19%;
     }
-    .main_form .send_btn {
-        margin-bottom: 30px;
+    .jkhgkj {
+        display: none;
     }
-    .logo_fooetr {
-        padding-bottom: 20px;
+    .staff {
+        margin-bottom: 20px;
     }
-    .ru_bg {
-        padding: 50px 19px;
+    #proj .carousel-control-prev,
+    #proj .carousel-control-next {
+        top: 96%;
     }
-    ul.lacation li {
-        padding-right: 10px;
-        font-size: 13px;
+    #proj .carousel-control-next {
+        right: 54%;
     }
-    ul.lacation li i {
-        margin-right: 6px;
-        width: 32px;
-        font-size: 18px;
-        height: 30px;
+    .margin_top {
+        margin-top: 0px;
+    }
+    .margin_bott {
+        margin-bottom: 0px;
+    }
+    .middle {
+        margin: 0;
+        padding-top: 37px;
+    }
+    .padd_top30 {
+        padding-top: 30px !important;
+    }
+    .balance {
+        margin: 0;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 9%;
+    }
+    .project_img {
+        margin-top: 30px
+    }
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+    }
+    .many {
+        margin-bottom: 20px;
     }
     .navigation.navbar {
         float: right;
         display: inherit !important;
         padding: 0;
         width: 100%;
-        padding-top: 0px !important;
+        padding-top: 8px !important;
     }
     .navigation .navbar-collapse {
-        background: #e76f64;
+        background: #161825;
         padding: 20px;
-        margin-top: 61px;
+        margin-top: 68px;
         position: absolute;
         width: 100%;
         z-index: 999;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
+        color: #fff;
     }
     .navigation.navbar-dark .navbar-toggler {
         border: inherit;
         float: right;
-        padding-top: 7px;
+        padding-top: 9px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
@@ -169,9 +234,6 @@
 }
 
 @media (max-width: 575px) {
-    .header {
-        padding: 29px 0px;
-    }
     .back_re .title h2 {
         font-size: 31px;
     }
@@ -179,14 +241,11 @@
         position: relative;
         z-index: 9999;
     }
-    .banner_main {
-        padding-bottom: 115px;
-    }
-    .build_box {
-        padding-top: 12%;
+    .project_img {
+        margin-top: 30px
     }
     .build_box h1 {
-        font-size: 34px;
+        font-size: 35px;
         line-height: 41px;
     }
     .logo {
@@ -195,44 +254,96 @@
         float: left;
         position: relative;
     }
-    .marriage_text h3 {
-        font-size: 19px;
-        padding-bottom: 11px;
+    .header {
+        height: 176px;
+    }
+    ul.contat_infoma {
+        display: none;
+    }
+    .jkhgkj {
+        display: none;
+    }
+    .staff {
+        margin-bottom: 20px;
+    }
+    #proj .carousel-control-prev,
+    #proj .carousel-control-next {
+        top: 93%;
+    }
+    #proj .carousel-control-next {
+        right: 54%;
+    }
+    .award_icon strong {
+        font-size: 8px;
+    }
+    .award_icon i {
+        width: 86px;
+        height: 114px;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+        top: 100%;
+    }
+    #myCarousel .carousel-control-prev {
+        right: 27%;
     }
     ul.search {
         display: none;
     }
-    .plan_text h3 {
-        font-size: 18px;
-    }
     .titlepage h2 {
-        font-size: 27px;
-        line-height: 33px;
+        font-size: 30px;
+        line-height: 31px;
     }
-    .margin_top70 {
+    .margin_top {
         margin-top: 0px;
     }
+    .margin_bott {
+        margin-bottom: 0px;
+    }
+    .middle {
+        margin: 0;
+        padding-top: 37px;
+    }
+    .padd_top30 {
+        padding-top: 30px !important;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .relative2 {
+        padding: 0px 23px 80px 23px;
+    }
+    .aliq {
+        padding: 0px;
+    }
+    .qusleft {
+        padding-left: 7px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 16%;
+    }
+    .main_form {
+        padding: 40px 20px;
+    }
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .projects_ban {
+        padding: 0 0px;
+    }
     .about_img {
-        margin-right: 0px;
+        padding-right: 0px;
         padding-left: 0px;
         margin-top: 30px;
     }
-    .marriage_text {
-        padding: 20px 25px 20px 25px;
-    }
-    .main_form .send_btn {
-        margin-bottom: 30px;
-    }
-    ul.lacation {
-        display: inherit;
-    }
-    ul.lacation li {
-        margin-top: 27px;
-        margin-bottom: 0px;
-    }
-    ul.social_icon {
-        float: left;
-        margin-bottom: 17px;
+    .many {
+        margin-bottom: 20px;
     }
     .navigation.navbar {
         float: right;
@@ -242,20 +353,35 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #e76f64;
+        background: #161825;
         padding: 20px;
-        margin-top: 24px;
+        margin-top: 26px;
         position: absolute;
         width: 100%;
         z-index: 999;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
+        color: #fff;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
         border: inherit;
-        margin-top: -34px;
+        margin-top: -40px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
